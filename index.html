@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Goshen Hills · Colección privada de 11 villas en Santa Marta." />
+  <title>Goshen Hills · Dossier</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="dossier.css" />
+</head>
+<body>
+  
+  <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+  </button>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar__brand">
+      <div class="sidebar__title">Goshen Hills</div>
+      <div class="sidebar__sub" data-i18n="sidebar_sub">Dossier de la colección</div>
+    </div>
+
+    <div class="lang-switcher">
+      <button class="lang-btn active" id="btn-es">ES</button>
+      <button class="lang-btn" id="btn-en">EN</button>
+    </div>
+
+    <nav class="nav-menu" id="navMenu">
+      <!-- Generated via JS based on DOM sections -->
+    </nav>
+
+    <div class="sidebar__footer">
+      <div>Santa Marta · Colombia</div>
+      <div>WhatsApp +57 300 400 07 07</div>
+      <div>hola@goshenhills.com.co</div>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    
+    <!-- 1. Portada -->
+    <section class="section section--midnight hero-img-section" id="01-portada" data-bloque="I · Apertura" data-title="Portada">
+      <img src="images/axonometriaAerea.jpg" class="hero-img js-zoomable" alt="Goshen Hills" />
+      <div class="hero-img-overlay">
+        <div class="cover reveal">
+          <div class="eyebrow" data-i18n="cover_eyebrow">COLECCIÓN PRIVADA · ONCE VILLAS</div>
+          <h1 class="cover__title">Goshen Hills</h1>
+          <p class="cover__subtitle" data-i18n="cover_sub">Donde el cielo abraza el mar</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. El umbral -->
+    <section class="section section--midnight" id="02-umbral" data-bloque="I · Apertura" data-title="El umbral">
+      <div class="manifesto stagger reveal">
+        <div class="eyebrow" data-i18n="umbral_eyebrow">I · EL UMBRAL</div>
+        <h2 data-i18n="umbral_title">Goshen Hills no fue concebido para competir con el mercado.</h2>
+        <p class="subtitle-italic" data-i18n="umbral_sub">Fue concebido para apartarse de él.</p>
+        <p class="body-text" data-i18n="umbral_p1">El Caribe colombiano se ha llenado de proyectos que prometen multiplicarse: torres que crecen en altura, condominios que crecen en número, ofertas que crecen en urgencia. Goshen Hills nació de una decisión opuesta.</p>
+        <p class="body-text" data-i18n="umbral_p2">En lugar de densidad, se elige un refugio de lujo suspendido entre el azul infinito del Caribe y la serenidad de la montaña, donde 11 villas se despliegan en armonía con el terreno, escalonadas como un gesto natural para preservar, en cada una, una vista intacta hacia el horizonte.</p>
+        <p class="body-text" data-i18n="umbral_p3">Aquí, la arquitectura no impone, sino que revela: luz, brisa y paisaje se funden en una experiencia íntima y sofisticada, pensada para habitar la belleza en su estado más puro.</p>
+        <div class="microcopy" data-i18n="umbral_micro">El lujo que no se exhibe, se respira.</div>
+      </div>
+    </section>
+
+    <!-- 3. Razón de ser -->
+    <section class="section section--ivory" id="03-razon" data-bloque="I · Apertura" data-title="Razón de ser">
+      <div class="editorial__grid stagger reveal">
+        <div class="editorial__content">
+          <div class="eyebrow" data-i18n="razon_eyebrow">II · LA RAZÓN DE SER</div>
+          <h2 data-i18n="razon_title">¿Por qué Goshen Hills?</h2>
+          <p class="subtitle-italic" data-i18n="razon_sub">Goshen: el lugar de refugio, protección y abundancia.</p>
+          <p class="body-text" data-i18n="razon_p1">En la tradición bíblica, Goshen fue una tierra apartada: un lugar de resguardo, provisión y prosperidad en medio de la adversidad. No era simplemente un territorio. Era un espacio protegido, fértil y distinto al ruido que lo rodeaba.</p>
+          <p class="body-text" data-i18n="razon_p2">Ese mismo espíritu inspira Goshen Hills: un refugio elevado sobre Santa Marta, donde la montaña protege, el Caribe abre el horizonte y la arquitectura encuentra su medida exacta.</p>
+        </div>
+        <div class="editorial__image">
+          <div class="editorial__img-wrapper">
+            <img src="images/viaInteriorComunidad.jpg" class="editorial__img js-zoomable" alt="Razón de ser" />
+          </div>
+          <div class="editorial__caption" data-i18n="razon_cap">La vía interior del conjunto · once familias, no once mil huéspedes</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Santa Marta -->
+    <section class="section section--ivory" id="04-santa-marta" data-bloque="II · Lugar" data-title="Santa Marta">
+      <div class="editorial__grid stagger reveal">
+        <div class="editorial__image">
+          <div class="editorial__img-wrapper">
+            <img src="images/santaMartaConvergence.jpg" class="editorial__img js-zoomable" alt="Santa Marta" />
+          </div>
+          <div class="editorial__caption" data-i18n="sm_cap">Goshen Hills dentro del macroproyecto Reserva de la Montaña · Santa Marta</div>
+        </div>
+        <div class="editorial__content">
+          <div class="eyebrow" data-i18n="sm_eyebrow">III · SANTA MARTA, REDEFINE EL CARIBE</div>
+          <h2 data-i18n="sm_title">Santa Marta, redefine el Caribe.</h2>
+          <p class="subtitle-italic" data-i18n="sm_sub">La geografía más completa del Caribe colombiano.</p>
+          <p class="body-text" data-i18n="sm_p1">Más que un destino, Santa Marta se descubre como una geografía única. Tras consolidarse en 2025 como el mercado inmobiliario más dinámico del Caribe colombiano, la ciudad ha sido reconocida por Forbes como uno de los cinco mejores destinos del mundo para invertir.</p>
+          <p class="body-text" data-i18n="sm_p2">Aquí convergen tres territorios que no se encuentran juntos en ningún otro lugar del Caribe: la Sierra Nevada, declarada Reserva de la Biósfera por la UNESCO; el Parque Nacional Natural Tayrona, uno de los ecosistemas costeros mejor preservados del continente; y el Mar Caribe, en su versión más cálida y silenciosa.</p>
+          <p class="body-text" data-i18n="sm_p3">Esta convergencia es lo que define la atmósfera de Goshen Hills. Habitar en Santa Marta no es habitar una playa. Es habitar una geografía completa: aire de montaña, sal de mar, sombra de bosque tropical.</p>
+          <div class="microcopy" data-i18n="sm_micro">Aquí, el Caribe se respira con aire de montaña.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Vía al Rodadero / Reserva de la Montaña -->
+    <section class="section section--ivory" id="05-via" data-bloque="II · Lugar" data-title="Vía al Rodadero">
+      <div class="editorial__grid stagger reveal">
+        <div class="editorial__content">
+          <div class="eyebrow" data-i18n="via_eyebrow">IV · LA VÍA AL RODADERO</div>
+          <h2 data-i18n="via_title">Cerca del movimiento. Por encima del ruido.</h2>
+          <p class="subtitle-italic" data-i18n="via_sub">Vía al Rodadero, y dentro de un macroproyecto urbanístico.</p>
+          <p class="body-text" data-i18n="via_p1">Ubicado dentro de Reserva de la Montaña, en un exclusivo lote de 62.900 m², Goshen Hills nace en un entorno privilegiado donde la naturaleza, la privacidad y la proyección urbana convergen en perfecta armonía. Este macroproyecto integra torres comerciales, lotes residenciales y amplias zonas comunes concebidas para enriquecer la experiencia de quienes lo habitan.</p>
+          <p class="body-text" data-i18n="via_p2">El Rodadero ha sido durante décadas el balcón al Caribe de Santa Marta. Su playa, sus restaurantes, sus servicios urbanos están a minutos. Pero Goshen Hills no se asoma desde la avenida — se eleva sobre ella. A esa altura, el ruido urbano queda abajo. La brisa marina llega filtrada por la vegetación de la pendiente. La vista del Caribe se abre sin obstrucciones, hasta el horizonte.</p>
+          <p class="body-text" data-i18n="via_p3">Esa relación —cercanía urbana sin densidad urbana— es lo que define la decisión de implantar Goshen Hills aquí.</p>
+          <div class="microcopy" data-i18n="via_micro">Cinco minutos al Rodadero. Cuarenta y cinco metros sobre la avenida.</div>
+        </div>
+        <div class="editorial__image">
+          <div class="editorial__img-wrapper">
+            <img src="images/reservaMontanaAerial.jpg" class="editorial__img js-zoomable" alt="Vía al Rodadero" />
+          </div>
+          <div class="editorial__caption" data-i18n="via_cap">Acceso al conjunto · curva ascendente por la ladera</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Piscina / umbral común -->
+    <section class="section section--midnight hero-img-section" id="06-piscina" data-bloque="III · Arquitectura" data-title="El umbral compartido">
+      <img src="images/piscinaLateral.jpg" class="hero-img js-zoomable" alt="Piscina" />
+      <div class="hero-img-overlay">
+        <div class="cover stagger reveal">
+          <div class="eyebrow" data-i18n="piscina_eyebrow">V · LA PISCINA COMO UMBRAL COMÚN</div>
+          <h2><span data-i18n="piscina_title" style="font-size:3rem">El umbral compartido.</span></h2>
+          <p class="subtitle-italic" data-i18n="piscina_sub">Una piscina orgánica de borde infinito sobre el Caribe.</p>
+          <p class="body-text" style="max-width:800px; margin:0 auto;" data-i18n="piscina_p1">Entre la fila de las posteriores y la fila de las frontales, sobre la cota más alta del conjunto y mirando al horizonte, se diseñó la pieza común que define la identidad social de Goshen Hills: una piscina de borde infinito, integrada con una zona social aterrazada en madera y piedra.</p>
+          <div class="microcopy" data-i18n="piscina_micro">Donde el agua y el horizonte dejan de distinguirse.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Tipología posterior -->
+    <section class="section section--ivory" id="07-posterior" data-bloque="III · Arquitectura" data-title="Tipología posterior">
+      <div class="editorial__grid stagger reveal">
+        <div class="editorial__content">
+          <div class="eyebrow" data-i18n="post_eyebrow">VI · TIPOLOGÍA POSTERIOR</div>
+          <h2 data-i18n="post_title">La tipología que se eleva.</h2>
+          <p class="subtitle-italic" data-i18n="post_sub">Casas 01–06 · 211–233 m² · Habitación contemplativa.</p>
+          <p class="body-text" data-i18n="post_p1">Las seis villas posteriores ocupan la fila superior del conjunto. Su acceso entra por la cota más baja, y la arquitectura crece hacia arriba en tres niveles: parqueadero en planta cero, social en planta uno, alcobas en planta dos.</p>
+          <p class="body-text" data-i18n="post_p2">Las posteriores son las villas que se habitan mirando hacia adelante: el horizonte está al frente, levemente debajo de la cota de las terrazas, y la sensación dominante es la de elevación serena. La luz de la mañana entra de costado; la brisa cruza la sala; la noche llega contenida por la altura de la ladera.</p>
+          <p class="body-text" data-i18n="post_p3">Son villas de carácter contemplativo. Para quien valora la pausa antes que la inmersión.</p>
+          <div class="microcopy" data-i18n="post_micro">Habitar el Caribe desde la pausa.</div>
+        </div>
+        <div class="editorial__image">
+          <div class="editorial__img-wrapper">
+            <img src="images/tipologiaPosterior.jpg" class="editorial__img js-zoomable" alt="Tipología Posterior" />
+          </div>
+          <div class="editorial__caption" data-i18n="post_cap">Tipología Posterior · 6 villas · 3 niveles ascendentes</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Tipología frontal -->
+    <section class="section section--ivory" id="08-frontal" data-bloque="III · Arquitectura" data-title="Tipología frontal">
+      <div class="editorial__grid stagger reveal">
+        <div class="editorial__image">
+          <div class="editorial__img-wrapper">
+            <img src="images/tipologiaFrontal.jpg" class="editorial__img js-zoomable" alt="Tipología Frontal" />
+          </div>
+          <div class="editorial__caption" data-i18n="front_cap">Tipología Frontal · 5 villas · 3 niveles descendentes · patios 23–75 m²</div>
+        </div>
+        <div class="editorial__content">
+          <div class="eyebrow" data-i18n="front_eyebrow">VII · TIPOLOGÍA FRONTAL</div>
+          <h2 data-i18n="front_title">La tipología que desciende.</h2>
+          <p class="subtitle-italic" data-i18n="front_sub">Casas 07–11 · 236–290 m² · Habitación inmersiva.</p>
+          <p class="body-text" data-i18n="front_p1">Las cinco villas frontales ocupan la fila inferior del conjunto. Su acceso entra por la cota más alta, y la arquitectura desciende hacia la ladera en tres niveles: parqueadero en planta cero, social en planta menos uno, alcobas en planta menos dos, con patios privados que pueden alcanzar los setenta y cinco metros cuadrados.</p>
+          <p class="body-text" data-i18n="front_p2">Las frontales son villas de inmersión. La privacidad de las plantas inferiores —protegidas por la propia geometría descendente— permite que cada villa tenga un patio íntimo casi imposible en el resto del Caribe colombiano.</p>
+          <p class="body-text" data-i18n="front_p3">Son villas para quien busca contacto, no contemplación.</p>
+          <div class="microcopy" data-i18n="front_micro">Habitar el Caribe desde el contacto.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. Índice de colección -->
+    <section class="section section--midnight" id="09-indice" data-bloque="IV · La colección" data-title="Índice de villas">
+      <div class="villa-index stagger reveal">
+        <div class="eyebrow" data-i18n="idx_eyebrow">VIII · ONCE NOMBRES PROPIOS</div>
+        <h2 data-i18n="idx_title">Once villas. Once formas de habitar el Caribe.</h2>
+        <p class="subtitle-italic" data-i18n="idx_sub" style="font-size:1.2rem;">La colección, leída de derecha a izquierda — desde la piscina hasta el extremo de la ladera.</p>
+        <p class="body-text" data-i18n="idx_p1">Cada villa posee un nombre propio: una identidad arquitectónica dictada por su posición exacta en la ladera. Aquí, la luz, la brisa y el horizonte se manifiestan de forma irrepetible. Por eso, la verdadera diferencia entre una residencia y otra no es métrica ni se calcula en metros cuadrados; es una distinción atmosférica que, más que medirse, se siente.</p>
+        
+        <ul class="villa-list" id="villaListContainer">
+          <!-- Filled by JS or statically here -->
+        </ul>
+        <div class="microcopy" data-i18n="idx_micro">La villa correcta se encuentra en conversación.</div>
+      </div>
+    </section>
+
+    <!-- 10. Villa Luna -->
+    <section class="section section--midnight" id="10-villa-luna" data-bloque="IV · La colección" data-title="Villa Luna">
+      <div class="passport stagger reveal">
+        <div class="eyebrow">CASA 01 · PASAPORTE SENSORIAL</div>
+        <h2>Villa Luna</h2>
+        <p class="subtitle-italic" data-i18n-concept="Contemplación">Contemplación</p>
+        
+        <div class="passport__tech">
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_typ">Tipología</span><strong data-i18n="tech_post">Posterior</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_area">Área construida</span><strong>213.35 m²</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_pos">Posición</span><strong data-i18n="pos_luna">Extremo derecho · fila superior</strong></div>
+        </div>
+
+        <div class="passport__grid">
+          <div class="passport__info">
+            <div class="eyebrow" data-i18n="lum_prof">Perfil lumínico</div>
+            <p class="body-text" data-i18n="lum_luna">Luna creciente reflejada sobre el Caribe. Es la única villa del conjunto cuyo eje visual nocturno coincide exactamente con el reflejo lunar sobre el agua. Durante el día, la luz entra de costado por la mañana y se modula con la sombra natural de la vegetación al atardecer.</p>
+            
+            <div class="eyebrow" style="margin-top:2rem;" data-i18n="for_who">Para quienes</div>
+            <p class="body-text" data-i18n="who_luna">Quien valora el ritual antes que la inmediatez. Quien entiende que el final del día es el momento más preciso del día.</p>
+            
+            <div class="passport__firma" data-i18n="firm_luna">La pieza icónica de la colección — la villa que dio origen a Goshen.</div>
+            
+            <a href="#22-cierre" class="btn-discreet" data-i18n="cta_villa">Solicitar conversación sobre esta villa <span>→</span></a>
+          </div>
+          <div class="passport__image">
+            <img src="images/crescentMoonCaribbean.jpg" class="passport__img js-zoomable" alt="Villa Luna" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. Villa Brisa -->
+    <section class="section section--ivory" id="11-villa-brisa" data-bloque="IV · La colección" data-title="Villa Brisa">
+      <div class="passport stagger reveal">
+        <div class="eyebrow">CASA 02 · PASAPORTE SENSORIAL</div>
+        <h2>Villa Brisa</h2>
+        <p class="subtitle-italic" data-i18n-concept="Movimiento">Movimiento</p>
+        
+        <div class="passport__tech">
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_typ">Tipología</span><strong data-i18n="tech_post">Posterior</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_area">Área construida</span><strong>220.28 m²</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_pos">Posición</span><strong data-i18n="pos_brisa">Fila superior · posterior</strong></div>
+        </div>
+
+        <div class="passport__grid">
+          <div class="passport__info">
+            <div class="eyebrow" data-i18n="lum_prof">Perfil lumínico</div>
+            <p class="body-text" data-i18n="lum_brisa">La lectura lumínica más cambiante del conjunto. La luz se modula con la dirección del viento: las hojas de la vegetación, agitadas por la brisa, proyectan sombras dinámicas sobre los muros internos.</p>
+            
+            <div class="eyebrow" style="margin-top:2rem;" data-i18n="for_who">Para quienes</div>
+            <p class="body-text" data-i18n="who_brisa">Quien vive en perpetuo flujo. Quien necesita aire y cambio de aire.</p>
+            
+            <div class="passport__firma" data-i18n="firm_brisa">La brisa cruzada de la ladera contenida en la villa más admirable de Goshen.</div>
+            
+            <a href="#22-cierre" class="btn-discreet" data-i18n="cta_villa">Solicitar conversación sobre esta villa <span>→</span></a>
+          </div>
+          <div class="passport__image">
+            <img src="images/casa02Brisa.jpg" class="passport__img js-zoomable" alt="Villa Brisa" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12. Villa Aurora -->
+    <section class="section section--ivory" id="12-villa-aurora" data-bloque="IV · La colección" data-title="Villa Aurora">
+      <div class="passport stagger reveal">
+        <div class="eyebrow">CASA 03 · PASAPORTE SENSORIAL</div>
+        <h2>Villa Aurora</h2>
+        <p class="subtitle-italic" data-i18n-concept="Renacimiento">Renacimiento</p>
+        
+        <div class="passport__tech">
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_typ">Tipología</span><strong data-i18n="tech_post">Posterior</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_area">Área construida</span><strong>219.79 m²</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_pos">Posición</span><strong data-i18n="pos_brisa">Fila superior · posterior</strong></div>
+        </div>
+
+        <div class="passport__grid">
+          <div class="passport__info">
+            <div class="eyebrow" data-i18n="lum_prof">Perfil lumínico</div>
+            <p class="body-text" data-i18n="lum_aurora">Veintitrés minutos de golden hour matinal directa sobre la terraza principal. La luz entra dorada, oblicua, y baña los muros internos con un tono ámbar suave que dura exactamente ese tiempo antes de que el sol gane altura.</p>
+            
+            <div class="eyebrow" style="margin-top:2rem;" data-i18n="for_who">Para quienes</div>
+            <p class="body-text" data-i18n="who_aurora">Quien empieza el día antes que el día. Quien valora el ritual matinal — el café, la primera luz, el silencio antes del ruido.</p>
+            
+            <div class="passport__firma" data-i18n="firm_aurora">Una relación privilegiada con el amanecer sobre el Caribe.</div>
+            
+            <a href="#22-cierre" class="btn-discreet" data-i18n="cta_villa">Solicitar conversación sobre esta villa <span>→</span></a>
+          </div>
+          <div class="passport__image">
+            <img src="images/casa03Aurora.jpg" class="passport__img js-zoomable" alt="Villa Aurora" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 13. Villa Celeste -->
+    <section class="section section--ivory" id="13-villa-celeste" data-bloque="IV · La colección" data-title="Villa Celeste">
+      <div class="passport stagger reveal">
+        <div class="eyebrow">CASA 04 · PASAPORTE SENSORIAL</div>
+        <h2>Villa Celeste</h2>
+        <p class="subtitle-italic" data-i18n-concept="Amplitud">Amplitud</p>
+        
+        <div class="passport__tech">
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_typ">Tipología</span><strong data-i18n="tech_post">Posterior</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_area">Área construida</span><strong>223.43 m²</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_pos">Posición</span><strong data-i18n="pos_brisa">Fila superior · posterior</strong></div>
+        </div>
+
+        <div class="passport__grid">
+          <div class="passport__info">
+            <div class="eyebrow" data-i18n="lum_prof">Perfil lumínico</div>
+            <p class="body-text" data-i18n="lum_celeste">La mayor cantidad de cielo abierto de toda la colección. La luz entra cenitalmente durante las horas centrales del día, llenando la sala con una luminosidad limpia. Los atardeceres se leen sin competencia visual.</p>
+            
+            <div class="eyebrow" style="margin-top:2rem;" data-i18n="for_who">Para quienes</div>
+            <p class="body-text" data-i18n="who_celeste">Quien necesita techo alto y cielo abierto. Quien valora la lectura del cielo más que la del paisaje horizontal.</p>
+            
+            <div class="passport__firma" data-i18n="firm_celeste">El cielo caribeño como protagonista silencioso.</div>
+            
+            <a href="#22-cierre" class="btn-discreet" data-i18n="cta_villa">Solicitar conversación sobre esta villa <span>→</span></a>
+          </div>
+          <div class="passport__image">
+            <img src="images/casa04Celeste.jpg" class="passport__img js-zoomable" alt="Villa Celeste" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 14. Villa Horizonte -->
+    <section class="section section--ivory" id="14-villa-horizonte" data-bloque="IV · La colección" data-title="Villa Horizonte">
+      <div class="passport stagger reveal">
+        <div class="eyebrow">CASA 05 · PASAPORTE SENSORIAL</div>
+        <h2>Villa Horizonte</h2>
+        <p class="subtitle-italic" data-i18n-concept="Expansión">Expansión</p>
+        
+        <div class="passport__tech">
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_typ">Tipología</span><strong data-i18n="tech_post">Posterior</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_area">Área construida</span><strong>232.93 m²</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_pos">Posición</span><strong data-i18n="pos_brisa">Fila superior · posterior</strong></div>
+        </div>
+
+        <div class="passport__grid">
+          <div class="passport__info">
+            <div class="eyebrow" data-i18n="lum_prof">Perfil lumínico</div>
+            <p class="body-text" data-i18n="lum_horizonte">La lectura lateral más limpia del Caribe. La luz entra lateralmente durante todo el día, sin obstrucciones laterales. La línea del horizonte está siempre visible desde la villa.</p>
+            
+            <div class="eyebrow" style="margin-top:2rem;" data-i18n="for_who">Para quienes</div>
+            <p class="body-text" data-i18n="who_horizonte">Quien vive con la mirada en el horizonte. Quien necesita ver lejos para pensar cerca.</p>
+            
+            <div class="passport__firma" data-i18n="firm_horizonte">El horizonte infinito del Caribe, como arte enmarcado.</div>
+            
+            <a href="#22-cierre" class="btn-discreet" data-i18n="cta_villa">Solicitar conversación sobre esta villa <span>→</span></a>
+          </div>
+          <div class="passport__image">
+            <img src="images/casa05Horizonte.jpg" class="passport__img js-zoomable" alt="Villa Horizonte" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 15. Villa Serena -->
+    <section class="section section--ivory" id="15-villa-serena" data-bloque="IV · La colección" data-title="Villa Serena">
+      <div class="passport stagger reveal">
+        <div class="eyebrow">CASA 06 · PASAPORTE SENSORIAL</div>
+        <h2>Villa Serena</h2>
+        <p class="subtitle-italic" data-i18n-concept="Reposo">Reposo</p>
+        
+        <div class="passport__tech">
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_typ">Tipología</span><strong data-i18n="tech_post">Posterior</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_area">Área construida</span><strong>211.71 m²</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_pos">Posición</span><strong data-i18n="pos_serena">Extremo izquierdo · fila superior</strong></div>
+        </div>
+
+        <div class="passport__grid">
+          <div class="passport__info">
+            <div class="eyebrow" data-i18n="lum_prof">Perfil lumínico</div>
+            <p class="body-text" data-i18n="lum_serena">Luz matinal indirecta, suavizada por sombra vegetal natural al mediodía. La proximidad a la zona social común hace que la villa reciba menos sol directo en las terrazas que las villas de la fila opuesta.</p>
+            
+            <div class="eyebrow" style="margin-top:2rem;" data-i18n="for_who">Para quienes</div>
+            <p class="body-text" data-i18n="who_serena">Quien no necesita demostrar nada para sentir que llegó. Quien entiende que la calma no es un estado al que se llega — es el estado por defecto.</p>
+            
+            <div class="passport__firma" data-i18n="firm_serena">La calma del Caribe contenida en una residencia elevada.</div>
+            
+            <a href="#22-cierre" class="btn-discreet" data-i18n="cta_villa">Solicitar conversación sobre esta villa <span>→</span></a>
+          </div>
+          <div class="passport__image">
+            <img src="images/casa06Serena.jpg" class="passport__img js-zoomable" alt="Villa Serena" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 16. Villa Coral -->
+    <section class="section section--ivory" id="16-villa-coral" data-bloque="IV · La colección" data-title="Villa Coral">
+      <div class="passport stagger reveal">
+        <div class="eyebrow">CASA 07 · PASAPORTE SENSORIAL</div>
+        <h2>Villa Coral</h2>
+        <p class="subtitle-italic" data-i18n-concept="Vitalidad">Vitalidad</p>
+        
+        <div class="passport__tech">
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_typ">Tipología</span><strong data-i18n="tech_front">Frontal</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_area">Área construida</span><strong>259.03 m²</strong></div>
+          <div class="tech-row"><span class="tech-label">Patio</span><strong>38.23 m²</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_pos">Posición</span><strong data-i18n="pos_coral">Extremo derecho · fila inferior frontal</strong></div>
+        </div>
+
+        <div class="passport__grid">
+          <div class="passport__info">
+            <div class="eyebrow" data-i18n="lum_prof">Perfil lumínico</div>
+            <p class="body-text" data-i18n="lum_coral">La luz coralina del amanecer entra primero por la terraza descendente. Los tonos cálidos del primer sol bañan la villa durante los primeros minutos del día.</p>
+            
+            <div class="eyebrow" style="margin-top:2rem;" data-i18n="for_who">Para quienes</div>
+            <p class="body-text" data-i18n="who_coral">Quien busca contacto con el ecosistema marino, no contemplación distante. Quien valora la energía vital sobre la pausa contemplativa.</p>
+            
+            <div class="passport__firma" data-i18n="firm_coral">El ecosistema marino caribeño como referencia estética.</div>
+            
+            <a href="#22-cierre" class="btn-discreet" data-i18n="cta_villa">Solicitar conversación sobre esta villa <span>→</span></a>
+          </div>
+          <div class="passport__image">
+            <img src="images/casa07Coral.jpg" class="passport__img js-zoomable" alt="Villa Coral" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 17. Villa Palma -->
+    <section class="section section--ivory" id="17-villa-palma" data-bloque="IV · La colección" data-title="Villa Palma">
+      <div class="passport stagger reveal">
+        <div class="eyebrow">CASA 08 · PASAPORTE SENSORIAL</div>
+        <h2>Villa Palma</h2>
+        <p class="subtitle-italic" data-i18n-concept="Tropicalidad">Tropicalidad</p>
+        
+        <div class="passport__tech">
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_typ">Tipología</span><strong data-i18n="tech_front">Frontal</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_area">Área construida</span><strong>243.60 m²</strong></div>
+          <div class="tech-row"><span class="tech-label">Patio</span><strong>27.01 m²</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_pos">Posición</span><strong data-i18n="pos_palma">Fila inferior · frontal</strong></div>
+        </div>
+
+        <div class="passport__grid">
+          <div class="passport__info">
+            <div class="eyebrow" data-i18n="lum_prof">Perfil lumínico</div>
+            <p class="body-text" data-i18n="lum_palma">La sombra vegetal define la entrada de luz. Las palmeras filtran la luz directa del mediodía y producen patrones de sombra recortada sobre los muros internos.</p>
+            
+            <div class="eyebrow" style="margin-top:2rem;" data-i18n="for_who">Para quienes</div>
+            <p class="body-text" data-i18n="who_palma">Quien busca el trópico real, no el trópico decorativo. Quien valora la sombra como pieza arquitectónica.</p>
+            
+            <div class="passport__firma" data-i18n="firm_palma">Las palmeras del trópico integradas en la experiencia cotidiana.</div>
+            
+            <a href="#22-cierre" class="btn-discreet" data-i18n="cta_villa">Solicitar conversación sobre esta villa <span>→</span></a>
+          </div>
+          <div class="passport__image">
+            <img src="images/casa08Palma.jpg" class="passport__img js-zoomable" alt="Villa Palma" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 18. Villa Ámbar -->
+    <section class="section section--midnight" id="18-villa-ambar" data-bloque="IV · La colección" data-title="Villa Ámbar">
+      <div class="passport stagger reveal">
+        <div class="eyebrow">CASA 09 · PASAPORTE SENSORIAL</div>
+        <h2>Villa Ámbar</h2>
+        <p class="subtitle-italic" data-i18n-concept="Plenitud">Plenitud</p>
+        
+        <div class="passport__tech">
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_typ">Tipología</span><strong data-i18n="tech_front">Frontal</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_area">Área construida</span><strong>236.21 m²</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_pos">Posición</span><strong data-i18n="pos_palma">Fila inferior · frontal</strong></div>
+        </div>
+
+        <div class="passport__grid">
+          <div class="passport__info">
+            <div class="eyebrow" data-i18n="lum_prof">Perfil lumínico</div>
+            <p class="body-text" data-i18n="lum_ambar">A las 17:42 — la hora exacta del color ámbar — las superficies internas de la villa se tiñen de un dorado saturado que define su carácter. Esta lectura cromática es geometría, no metáfora.</p>
+            
+            <div class="eyebrow" style="margin-top:2rem;" data-i18n="for_who">Para quienes</div>
+            <p class="body-text" data-i18n="who_ambar">Quien habita el día desde el final. Quien entiende el atardecer como culminación, no como cierre.</p>
+            
+            <div class="passport__firma" data-i18n="firm_ambar">La residencia del atardecer — la mejor 'Golden Hour' vespertina de la colección.</div>
+            
+            <a href="#22-cierre" class="btn-discreet" data-i18n="cta_villa">Solicitar conversación sobre esta villa <span>→</span></a>
+          </div>
+          <div class="passport__image">
+            <img src="images/casa09Ambar.jpg" class="passport__img js-zoomable" alt="Villa Ámbar" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 19. Villa Marina -->
+    <section class="section section--ivory" id="19-villa-marina" data-bloque="IV · La colección" data-title="Villa Marina">
+      <div class="passport stagger reveal">
+        <div class="eyebrow">CASA 10 · PASAPORTE SENSORIAL</div>
+        <h2>Villa Marina</h2>
+        <p class="subtitle-italic" data-i18n-concept="Inmersión">Inmersión</p>
+        
+        <div class="passport__tech">
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_typ">Tipología</span><strong data-i18n="tech_front">Frontal</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_area">Área construida</span><strong>240.18 m²</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_pos">Posición</span><strong data-i18n="pos_palma">Fila inferior · frontal</strong></div>
+        </div>
+
+        <div class="passport__grid">
+          <div class="passport__info">
+            <div class="eyebrow" data-i18n="lum_prof">Perfil lumínico</div>
+            <p class="body-text" data-i18n="lum_marina">La luz refleja desde el agua del Caribe y rebota sobre los muros internos de la villa. Es una calidad lumínica viva — el reflejo del agua introduce un movimiento permanente sobre las superficies.</p>
+            
+            <div class="eyebrow" style="margin-top:2rem;" data-i18n="for_who">Para quienes</div>
+            <p class="body-text" data-i18n="who_marina">Quien quiere escuchar el mar desde la cama, sin filtros arquitectónicos. Quien busca la inmersión, no la distancia.</p>
+            
+            <div class="passport__firma" data-i18n="firm_marina">El mar como protagonista más próximo.</div>
+            
+            <a href="#22-cierre" class="btn-discreet" data-i18n="cta_villa">Solicitar conversación sobre esta villa <span>→</span></a>
+          </div>
+          <div class="passport__image">
+            <img src="images/casa10Marina.jpg" class="passport__img js-zoomable" alt="Villa Marina" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 20. Villa Sierra -->
+    <section class="section section--midnight" id="20-villa-sierra" data-bloque="IV · La colección" data-title="Villa Sierra">
+      <div class="passport stagger reveal">
+        <div class="eyebrow">CASA 11 · PASAPORTE SENSORIAL</div>
+        <h2>Villa Sierra</h2>
+        <p class="subtitle-italic" data-i18n-concept="Arraigo">Arraigo</p>
+        
+        <div class="passport__tech">
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_typ">Tipología</span><strong data-i18n="tech_front">Frontal</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_area">Área construida</span><strong>289.87 m²</strong></div>
+          <div class="tech-row"><span class="tech-label">Patio</span><strong>74.98 m²</strong></div>
+          <div class="tech-row"><span class="tech-label" data-i18n="tech_pos">Posición</span><strong data-i18n="pos_sierra">Extremo izquierdo · fila inferior</strong></div>
+        </div>
+
+        <div class="passport__grid">
+          <div class="passport__info">
+            <div class="eyebrow" data-i18n="lum_prof">Perfil lumínico</div>
+            <p class="body-text" data-i18n="lum_sierra">La mayor cantidad de luz natural recibida por una villa del conjunto, debido a la combinación de su orientación, su tamaño y su patio privado de casi 75 m². La villa funciona como un instrumento óptico que captura el día desde distintos ángulos.</p>
+            
+            <div class="eyebrow" style="margin-top:2rem;" data-i18n="for_who">Para quienes</div>
+            <p class="body-text" data-i18n="who_sierra">Quien necesita sentir paisaje antes que espectáculo. Quien busca la villa que cierra la conversación de la colección.</p>
+            
+            <div class="passport__firma" data-i18n="firm_sierra">El diálogo entre la Sierra Nevada y el Caribe.</div>
+            
+            <a href="#22-cierre" class="btn-discreet" data-i18n="cta_villa">Solicitar conversación sobre esta villa <span>→</span></a>
+          </div>
+          <div class="passport__image">
+            <img src="images/casa11Sierra.jpg" class="passport__img js-zoomable" alt="Villa Sierra" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 21. Conversación privada -->
+    <section class="section section--ivory" id="21-conversacion" data-bloque="V · Conversación" data-title="Proceso de acceso">
+      <div class="process stagger reveal">
+        <div class="eyebrow" data-i18n="conv_eyebrow">IX · LA CONVERSACIÓN PRIVADA</div>
+        <h2 data-i18n="conv_title">La conversación privada.</h2>
+        <p class="subtitle-italic" data-i18n="conv_sub">El paso natural para elegir una de once villas.</p>
+        
+        <div class="process-step">
+          <div class="process-step__num">01</div>
+          <div>
+            <h3 data-i18n="conv_st1">Solicitud de información privada</h3>
+            <p class="body-text" data-i18n="conv_sp1">La conversación inicia con una solicitud directa al equipo del proyecto. No publicamos en portales inmobiliarios. No hacemos open house.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="process-step__num">02</div>
+          <div>
+            <h3 data-i18n="conv_st2">Diálogo inicial</h3>
+            <p class="body-text" data-i18n="conv_sp2">Una conversación de 30 a 45 minutos para entender el perfil familiar y las preferencias arquitectónicas. No es una llamada de venta. Es matchmaking entre familia y villa.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="process-step__num">03</div>
+          <div>
+            <h3 data-i18n="conv_st3">Visita o presentación inmersiva</h3>
+            <p class="body-text" data-i18n="conv_sp3">Visita al lote en Santa Marta, o presentación inmersiva remota con el equipo arquitectónico. La villa correcta empieza a reconocerse.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="process-step__num">04</div>
+          <div>
+            <h3 data-i18n="conv_st4">Selección y separación</h3>
+            <p class="body-text" data-i18n="conv_sp4">Cuando hay reconocimiento, se firma la separación a través del contrato fiduciario regulado por la Superfinanciera.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="process-step__num">05</div>
+          <div>
+            <h3 data-i18n="conv_st5">Co-creación con el arquitecto</h3>
+            <p class="body-text" data-i18n="conv_sp5">Sesión privada con Raúl Caballería para definir acabados bespoke. Solo para fases Founders y Preventa I.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="process-step__num">06</div>
+          <div>
+            <h3 data-i18n="conv_st6">Formalización documental</h3>
+            <p class="body-text" data-i18n="conv_sp6">Promesa de compraventa, programación financiera y acompañamiento durante la construcción y la entrega.</p>
+          </div>
+        </div>
+        <div class="process-step">
+          <div class="process-step__num">07</div>
+          <div>
+            <h3 data-i18n="conv_st7">Permanencia</h3>
+            <p class="body-text" data-i18n="conv_sp7">Goshen Hills no termina con la entrega. Comienza con la entrega.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 22. Cierre final -->
+    <section class="section section--midnight" id="22-cierre" data-bloque="V · Conversación" data-title="Cierre">
+      <div class="closing stagger reveal">
+        <div class="eyebrow" data-i18n="close_eyebrow">X · CIERRE</div>
+        <h2 style="font-size:3rem" data-i18n="close_title">La conversación comienza antes que la visita.</h2>
+        <p class="subtitle-italic" style="margin-top:2rem;" data-i18n="close_sub">Goshen Hills no se descubre por prisa. Se reconoce por criterio.<br>Once villas. Una ladera. Un horizonte que no se repite.</p>
+        
+        <a href="https://wa.me/573004000707?text=Hola%2C%20quiero%20recibir%20informaci%C3%B3n%20privada%20sobre%20Goshen%20Hills." target="_blank" rel="noopener noreferrer" class="btn-whatsapp" id="cta-final">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.888-.788-1.489-1.761-1.663-2.06-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+          <span data-i18n="close_btn">Solicitar información privada por WhatsApp</span>
+        </a>
+
+        <div style="font-family:var(--font-sans);font-size:0.9rem;opacity:0.6;margin-top:2rem;">
+          Goshen Hills · WhatsApp +57 300 400 07 07 · hola@goshenhills.com.co
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Cerrar">×</button>
+    <img src="" alt="" class="lightbox__img" id="lightboxImg" />
+    <div class="lightbox__caption" id="lightboxCaption"></div>
+  </div>
+
+  <script src="dossier.js"></script>
+</body>
+</html>
